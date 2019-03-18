@@ -118,4 +118,5 @@ app.get('/weather', (req,res)=>{
 
   app.listen(port, ()=>{
     console.log('Server is up on port ' + port);
+    console.log('Seems like this is the real port');
   })

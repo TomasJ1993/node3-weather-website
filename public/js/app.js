@@ -21,7 +21,6 @@ weatherForm.addEventListener('submit',(e)=>{
       else{
           messageOne.textContent = data.address;
           messageTwo.textContent = data.forecast;
-          search.textContent = "";
       }
     })
   })
